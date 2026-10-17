@@ -1,13 +1,19 @@
-# KV CELL OS PREMIUM — ULTIMATE SUPREME V1101.2
+# KV CELL OS PREMIUM — RESTAURAÇÃO ESTÁVEL V1100
 
-## V1101.2 — ajustes específicos solicitados
-- Oculta da navegação as abas Comunidade e Catálogo Digital, sem apagar os dados ou APIs legados.
-- Mantém uma única aba Aparelhos para registros de bancada e esquecidos/abandonados.
-- Restaura formulário completo de OS: técnico selecionado do cadastro, itens/peças, qualidade e preço cobrado, mapa de avarias, senha por desenho com clique numerado ou arraste e comparação interna de preço RJ.
-- Mantém a URL/token e o fluxo de acompanhamento público da OS; a página do cliente passa a exibir itens substituídos e valores registrados, sem mostrar custo interno.
-- Corrige o prefixo do bot de IA, adiciona consulta/importação sob demanda da API pública da Tabela Películas e encerra sessões ociosas após 30 minutos.
-- Consulte `CHANGELOG_V1101.2.md` para fontes, escopo e limitações da referência de preços/compatibilidades.
+Pacote restaurado a partir da base V1100 fornecida, escolhida como retorno à versão anterior para evitar a regressão relatada na atualização mais recente.
 
+## Importante antes de publicar
+- Faça backup do banco persistente da Square Cloud antes de trocar arquivos.
+- Este ZIP não inclui `kvcell.db` e não apaga nem substitui o banco remoto. O aplicativo usa `KVCELL_DATA_DIR` (padrão `/application/data`) para o banco SQLite.
+- Preserve as variáveis de ambiente já configuradas no projeto, especialmente as de autenticação e sincronização do banco.
+- O pacote mantém os módulos e os fluxos públicos existentes desta base. Não é possível garantir funcionamento de integrações externas sem testar na sua conta/ambiente da Square Cloud.
+
+## Publicação
+Envie o conteúdo deste pacote como projeto Python na Square Cloud. O `squarecloud.app` define `MAIN=app.py`. Após iniciar, verifique `/api/health` e teste login, OS, orçamento e links públicos com um registro de teste.
+
+---
+
+# KV CELL OS PREMIUM — ULTIMATE SUPREME V1100.0
 
 > V1100.0 é uma evolução aditiva sobre a base V700. Nenhum módulo funcional existente foi removido.
 
