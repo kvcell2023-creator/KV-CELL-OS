@@ -146,3 +146,10 @@ Inclui:
 A V1000 adiciona uma camada de conexão ADB que não tenta repetidamente acessar o localhost quando a ponte ainda não foi verificada. No Windows, use `tools\INICIAR_KV_CELL_BRIDGE.bat` ou `tools\bridge\INSTALAR_BRIDGE_AUTO.bat`.
 
 O painel Square Cloud não consegue iniciar o processo local por conta das restrições de segurança do navegador. A ponte é necessária para ADB real e instalação do APK via ADB.
+
+
+## V1102 — visual refresh e OS com múltiplos aparelhos
+- Atualização visual aditiva inspirada no layout de referência Tech OS Pro, mantendo a identidade preta/amarela KV CELL.
+- Reforço das ações na listagem de OS: visualizar, editar, copiar acompanhamento, WhatsApp, garantia/finalização, excluir e botões de status.
+- Formulários de OS técnica e desbloqueio permitem adicionar múltiplos aparelhos à mesma ordem. Os aparelhos extras são registrados em metadados de observação, sem migração destrutiva do banco.
+- Não foi incluído banco local no pacote; preserve o banco persistente existente e faça backup antes da publicação.
