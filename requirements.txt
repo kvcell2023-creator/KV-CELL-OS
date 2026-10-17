@@ -1,4 +1,6 @@
-fastapi==0.116.1
-uvicorn[standard]==0.35.0
-jinja2==3.1.6
-python-multipart==0.0.20
+# KV CELL OS PREMIUM - intentionally dependency-free for Square Cloud.
+# Uses Python standard library only: sqlite3, http.server, zipfile, json.
+
+cryptography>=43,<47
+
+qrcode>=7.4,<9

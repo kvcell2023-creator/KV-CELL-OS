@@ -1,0 +1,29 @@
+# V10 ULTIMATE — CHECKLIST FINAL
+
+- [x] LAGOS / MAGÉ / TODOS
+- [x] Dashboard ganhos, despesas e resultado
+- [x] Compra + venda no mesmo cadastro
+- [x] Venda: local, preço, forma, fiado, parcelas, taxa
+- [x] Consertos / OS
+- [x] Desbloqueios
+- [x] Precificação
+- [x] KV CELL BOT [I.A]
+- [x] Películas assistidas por IA
+- [x] Orçamento com link
+- [x] Aceitar / recusar orçamento pelo link
+- [x] Resposta do cliente entra no Chat/LOG
+- [x] Cancelar orçamento
+- [x] Chat central LAGOS + MAGÉ + BOT + LOG
+- [x] Auditoria de criação/alteração/exclusão
+- [x] Usuário e unidade no LOG
+- [x] Desfazer ações
+- [x] Fotos
+- [x] Clientes
+- [x] Estoque
+- [x] Esquecidos
+- [x] Backup ZIP
+- [x] Aba Facebook/Messenger futura
+- [x] Segredos somente em variáveis de ambiente
+- [x] Retry Gemini para 429/5xx
+- [x] Fallback de interface quando IA estiver indisponível
+- [x] Sem aba Termos na navegação V10
